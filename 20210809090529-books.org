@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       45bc7e35-57c5-411b-85cc-9e3e481c6781
+:END:
+#+TODO: TOREAD(t) READING(r!) | DONEREADING(d!)
+#+title: Books
+
+* Books
+** TOREAD [[id:27f4561d-ff8e-49c3-8dcc-f6343dedf571][Start With Why]]
+** TOREAD [[id:fc6d7408-a276-4282-bec2-82b270eda5fd][Find Your Why]]

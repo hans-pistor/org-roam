@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       7c02faeb-61e6-4cd3-9564-fad79d939b5f
+:AUTHOR: [[id:ea0f69d4-426f-4cbb-93d8-aa5a24f9da1c][Laurie Santos]]
+:END:
+#+title: The Science of Well Being
+
+* The Science of Well Being
+Written by: [[id:ea0f69d4-426f-4cbb-93d8-aa5a24f9da1c][Laurie Santos]]
+
+The goal is to teach us about the science of happiness & also think about the practice of happiness. What makes us happy? Is it enough to know, or do you also have to put it into practice.
+
+** What is the course about?
+*** Misconceptions about happiness
+*** Why our expectations are so bad
+*** What stuff really increases happiness?
+*** Strategies to reset our expectation
+*** Putting strategies into practice
+
+
+** Why teach a course on the science of happiness?
+*** The science of psychology has a lot of new insights
+We are learning a lot about how to apply psychological concepts in our life.
+*** We need these insights pretty badly
+We're not as happy as we need to be.
+Article: "Report: Americans most unhappy people in the world" from abc
+
+** The GI Joe Fallacy
+The idea that "knowing" is half the battle
+
+Just knowing something isn't enough to change how you actually to behave. For ex, optical illusions. Even if you know the answer, your eyes & mind perceive them the same way.
+
+** INITIAL PERMA RESULTS
+Positive emotions = 5.67
+Engagement = 8.33
+Relationships = 3
+Meaning = 3.33
+Accomplishment = 6.67
+Health = 8.33
+Negative Emotions = 2
+Loneliness = 8
+Overall = 5.38

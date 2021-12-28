@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1c0bb1e8-b9f7-4f76-b727-fdccace1781b
+:END:
+#+TODO: TOREAD(t) READING(r!) | DONEREADING(d!)
+#+title: Articles
+
+
+* Articles
+** TODO [[pdf:pdfs/Nudge nudge, think think.pdf::1][Nudge nudge, think think]]

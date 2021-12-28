@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2038ed63-cb1b-4bde-96ee-14d8387d3cd5
+:END:
+#+TODO: TOWATCH(t) WATCHING(w!) | DONEWATCHING(d!)
+#+title: Courses
+
+* Courses
+** WATCHING [[id:7c02faeb-61e6-4cd3-9564-fad79d939b5f][The Science of Well Being]]
+- State "WATCHING"   from "TOWATCH"    [2021-08-12 Thu 19:46]
