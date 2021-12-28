@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       bcf6dd48-66ef-4b00-8e1d-11f5cf3dcc58
+:END:
+#+title: Resiliency
+
+Failures in components should be isolated & localized
+
+This prevents a failure in one part of the system from affecting another
+
+For example, a failure in the comments section of Amazon doesn't affect the payment processing.

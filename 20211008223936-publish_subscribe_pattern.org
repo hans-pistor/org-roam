@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       e7ea6768-6f56-47a7-aad7-3a7b3474966c
+:END:
+#+title: Publish-Subscribe Pattern
+#+filetags: design-patterns
+
+In the publish-subscribe (pubsub) pattern, publishers push messages into an event channel & subscribers read messages from that event channel.
+
+This is separate from the [[id:fb1238f5-1c21-4dcf-b4c6-1d67e36b95de][Observer Pattern]] pattern because neither the producer or subscriber has to know about the othe, only the event channel
+
+Typically event channels include a [[id:bf35ec81-e546-4707-9b7b-3d24863a5762][Message Broker]]

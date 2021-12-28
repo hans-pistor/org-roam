@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       83ad2889-ed78-4b91-b921-bbbbc297d8d5
+:END:
+#+title: Message passing
+
+Communicating by sending a message that is usually managed by some message broker
+
+Examples
+- [[id:11db0c9b-3406-453e-b14c-9eda470cbaf0][Kafka]]
+- [[id:f39c3333-694e-4ab5-ba6f-2516d13022cf][RabbitMQ]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c993ef80-df99-4796-a762-ce741be38d36
+:END:
+#+title: Elasticity
+
+Ability to stay responsive under varying workload
+
+i.e. adding/removing instances, computing power, etc

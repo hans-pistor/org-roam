@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       bf75a972-ce4a-471d-b8c6-a182abc0d6eb
+:END:
+#+title: Reactive Programming
+
+Reactive programming means being resonsive to changes in load & availability of external services
+
+Ways to
+- [[id:c993ef80-df99-4796-a762-ce741be38d36][Elasticity]]
+- [[id:bcf6dd48-66ef-4b00-8e1d-11f5cf3dcc58][Resiliency]]
+
+Communication is done through [[id:83ad2889-ed78-4b91-b921-bbbbc297d8d5][Message Passing]]

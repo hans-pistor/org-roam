@@ -1,0 +1,112 @@
+:PROPERTIES:
+:ID:       41f3864d-0771-4a0b-995b-43a65a8ddd13
+:END:
+#+title: Fundamentals of System Design
+
+* Introduction to System Design
+System Design are useful for understanding true on-the-job performance. Engineers must understand how distributed systems work -- how each component processes information, communicates, and scales.
+* System Design Interview
+System Design questions vary from regular coding questions in a few different ways
++ Most prompts are intentionally vague
+  Coding challenges have clear answers while system design questions are much more open ended. You can choose which direction to take,  which is why clarifying questions and ironing out the requirements are so important.
+
++ There is no "right" answer
+  There are "good" and "bad" designs, but as long as you can articulate the tradeoffs between the decision you made and the alternatives, you're okay
+
++ There is a two-way dialogue between you and the interviewer
+  Spend time clarifying the requirements and whats in/out of scope so that you can focus on exactly what they're trying to get you to answer
+
+** Purpose
+The purpose of the software design interview is to assess your ability to take an open-ended problem & discover the business requirements + design a solution to satisfy those business requirements.
+** Assessment
+1. Basic Knowledge of the Fundamentals of good software design
+   Efficiency in terms of reliability, scalability, maintainability, and cost
+2. Communication skills to scope out the problem
+   Collecting feature/non-feature requirements, justifying your choices, and pivoting when necessary.
+
+** Tips
++ Take lead in discussion
++ Constantly interact with interviewer
++ Ask clarifying question & outline the requirements
++ Identify the core components + infrastructure
++ Justify trade-offs and consider alternatives
+* System Design Framework
+1. Define the Problem Space
+2. Design the system at a high level
+3. Deep dive into the components & infrastructure
+4. Identify the bottlenecks & scale
+5. Review the requirements, justify your choices + review alternatives, answer questions
+
+** Define the Problem Space
+
++ Capture the functional and non-functional requirements. Examples of non-functional requirements include Speed, Security, Reliability, Maintainability, Cost
+
+*** Example Questions
++ What features do we need to build? What's in scope? What's out of scope?
++ What scale do we need to handle? How many requests per second? How many users?
++ What conditions are we operating under? Consider edge cases like bad network connection, database consistency, errors, etc.
++ What are the effects of our architectural choice? What are engineers currently using & how will this affect maintability, etc.
+
+
+
+
+
+** Design the System at a High Level
++ What database should we use? Will sharding be necessary? SQL vs NoSQL? etc
++ Do we need an API? What will it look like?
++ Is there heavy computation? Will we need to parallelize our work?
++ What will our service architecture look like? Monolith or Microservices?
+
+** Deep Dive into the Components & Infrastructure
++ Define interfaces between the components
+  + API, Database Schema, etc
+** Bottlenecks & Scale
+How will you scale to increased demand?
+
+*** 0 - 1k Users
++ Don't need much more than the service & database
+*** 1k-10k Users
++ Multiple servers with load balancer
++ Leader-follower DB with replication
+  + Writes to leader, Reads to followers
++ Why? Horizontal Scaling allows to adjust to new users without much cost / complexity. Generally cheaper to scale out than to scale up.
+*** 10k-100k Users
++ Content Delivery Network
++ Caching + Rate Limiting
++ Why? CDNs will reduce regional latency + Caching will reduce cost of frequently accessed data + Rate limiting vs Bad actors
+*** 100k-1M Users
++ DB Sharding
++ More advanced replication strategies such as Leaderless replications, etc
+*** 1M + Users
++ Consider regional strategies
++ Consider migrating to NoSQL where possible
+** Review Requirements + Justify Choices + Alternatives
+
+* System Design Principles
+How do we architect a system that supports it's requirements in the "best" way possible? It can be the best in many of the following dimensions (but not all)
+
++ Scalability :: Can handle additional load & still operate efficiently
++ Reliability :: Can tolerate user mistakes + prevents unauthorized access / abuse
++ Availability :: Is available to perform it's function
++ Efficiency :: Can is perform it's function quickly?
+  + Latency, response time, etc
++ Maintainability :: Easy to operate smoothly, simple for new engineers to understand, easy to modify for unanticipated use cases
+
+
+* Web Protocols
+* Load Balancers
+* Content Delivery Networks
+* APIs
+* Consistent Hashing
+* CAP Theorem
+* Caching Strategies
+* SQL vs. NoSQL
+* Replication
+* Database Sharding
+* Asynchronous Processing
+* Memory Management Techniques
+* Encryption
+* Authentication and Authorization
+
+* Links
++ link to course: [[https://www.tryexponent.com/courses/software-engineering/fundamentals-system-design/intro-architecture][Fundamentals of System Design]]

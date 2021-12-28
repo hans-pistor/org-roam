@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       6432b81f-f18f-4f72-9bdc-39ed672ec754
+:END:
+#+title: System Design Framework
+
+System Design questions vary from regular coding questions in a few different ways
++ Most prompts are intentionally vague
+  Coding challenges have clear answers while system design questions are much more open ended. You can choose which direction to take,  which is why clarifying questions and ironing out the requirements are so important.
+
++ There is no "right" answer
+  There are "good" and "bad" designs, but as long as you can articulate the tradeoffs between the decision you made and the alternatives, you're okay
+
++ There is a two-way dialogue between you and the interviewer
+  Spend time clarifying the requirements and whats in/out of scope so that you can focus on exactly what they're trying to get you to answer
